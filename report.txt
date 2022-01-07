@@ -1,2 +1,4 @@
 Node_js report
 
+nodemon (server installation)
+npm i nodemon
