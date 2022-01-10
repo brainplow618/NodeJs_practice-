@@ -7,8 +7,23 @@
 // console.log(fname)
 
 
-const {add,sub}  = require('./index.js')
-const sum  = add(4, 3)
-const diff  = sub(4, 3)
-console.log(sum)
-console.log(diff)
+// const {add,sub}  = require('./index.js')
+// const sum  = add(4, 3)
+// const diff  = sub(4, 3)
+// console.log(sum)
+// console.log(diff)
+
+
+// const { getMaxListeners } = require('process')
+
+
+// const validator = require('validator')
+// console.log(validator.isEmail('shamigetMaxListeners.com'))
+
+
+// const ngetNotes = require('./index.js')
+// console.log(ngetNotes())
+
+const Notes = require('../chalk/chalk.js')
+const msg = Notes()
+console.log(msg)

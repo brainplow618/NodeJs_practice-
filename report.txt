@@ -1,4 +1,10 @@
 Node_js report
-
+Install all packges
+Npm install
 nodemon (server installation)
-npm i nodemon
+$ npm i nodemon
+Terminal string styling done right chalk
+$ npm install chalk
+
+Global npm packges
+
