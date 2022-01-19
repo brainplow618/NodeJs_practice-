@@ -27,3 +27,5 @@
 const Notes = require('../chalk/chalk.js')
 const msg = Notes()
 console.log(msg)
+
+console.log(process.argv[2]);
