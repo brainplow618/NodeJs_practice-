@@ -32,3 +32,9 @@ const url = 'http://api.weatherstack.com/current?access_key=d774500f8b1db43ee559
 request({ url: url, json: true }, (error, response) => {
     console.log(response.body.current.weather_descriptions[0] + '. It is currently ' + response.body.current.temperature + ' degress out. It feels like ' + response.body.current.feelslike + 'degrees out.' + 'There is ' + response.body.current.precip + '% chance of rain.')
 })
+
+
+// Goal: print the lat/long for los angle.
+
+
+
