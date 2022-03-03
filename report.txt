@@ -6,5 +6,9 @@ $ npm i nodemon
 Terminal string styling done right chalk
 $ npm install chalk
 
+
+Install postman-request
+$ npm i postman-request
 Global npm packges
 
+this. keywords don't use in arrow function.
