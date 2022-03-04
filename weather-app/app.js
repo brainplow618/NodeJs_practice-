@@ -33,7 +33,8 @@ request({ url: url, json: true }, (error, response) => {
     if (error){
         console.log("Unable to connect weather services..!")
     }else if(response.body.error){
-        console.log("Unable to find location")       
+        console.log("Unable to find location")
+       
     } 
     else {
         console.log(response.body.current.weather_descriptions[0] + '. It is currently ' + response.body.current.temperature + ' degress out. It feels like ' + response.body.current.feelslike + 'degrees out.' + 'There is ' + response.body.current.precip + '% chance of rain.')
