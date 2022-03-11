@@ -11,4 +11,11 @@ Install postman-request
 $ npm i postman-request
 Global npm packges
 
+create packag-json file
+$ npm init -y
+Install express 
+$npm i express@version
 this. keywords don't use in arrow function.
+
+Install expresss library
+$ npm i express@version
